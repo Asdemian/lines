@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        //task2
-        String firstName = "Ivan";
-        String middleName = "Ivanovich";
-        String lastName = "Ivanov";
+        //task3
+        String firstName = "Семён";
+        String middleName = "Семёнович";
+        String lastName = "Иванов";
         String fullName = lastName + " " + firstName + " " + middleName;
-        String fullName2 = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName2);
+        String ee = fullName.replace('ё','е');
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + ee);
     }
 }
